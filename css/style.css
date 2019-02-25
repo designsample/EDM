@@ -1,0 +1,74 @@
+@charset "UTF-8";
+*{
+	color:#333333;
+
+}
+/*For All*/
+.fontEn{
+	font-family: Times New Roman !important;
+}
+.fontEnZh{
+	font-family: Times New Roman, "WenQuanYi Zen Hei", "文泉驛正黑", "Heiti TC", "黑體-繁", "LiHei Pro", "儷黑 Pro", "PingFang TC", "Droid Sans Fallback", "Roboto", "Microsoft JhengHei", "微軟正黑體" !important;
+}
+.fontZh{
+	font-family: "WenQuanYi Zen Hei", "文泉驛正黑", "Heiti TC", "黑體-繁", "LiHei Pro", "儷黑 Pro", "PingFang TC", "Droid Sans Fallback", "Roboto", "Microsoft JhengHei", "微軟正黑體" !important;
+}
+.font-16{
+	font-size: 16px;
+}
+sup.font-18{
+	font-size:16px !important;
+}
+
+.table {
+    background: #F5F6F7;
+    color: #4a4a4a;
+    width: 600px;
+}
+table td:first-child{
+	 width:7.2em;
+}
+
+@media screen and (max-width: 767px) {
+    .table {
+    width:100%;
+}
+}
+
+@media screen and (min-width: 768px) {
+
+    
+
+}
+
+@media screen and (min-width: 992px) {
+
+}
+
+@media screen and (min-width: 1200px) {
+
+}
+
+
+@media screen and (max-width: 380px) {}
+
+
+
+/*表格*/
+
+
+
+.table th{
+    text-align: center;
+}
+.table td {
+    text-align: left;
+}
+.table th,
+.table td {
+    padding: 10px 5px;
+}
+
+
+
+
